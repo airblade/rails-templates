@@ -1,6 +1,6 @@
 Template scripts for creating new Rails applications.
 
-See [Ryan Bates][rbates]'s usage suggestion:
+See [Ryan Bates][ryanb]'s usage suggestion:
 
     railsapp base app_name
 
