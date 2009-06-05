@@ -14,8 +14,8 @@ class GitHub
   include HTTParty
   format :json
   base_uri 'http://github.com/api/v2/json'
-  default_params :login => 'YOUR GITHUB LOGIN',
-                 :token => 'YOUR GITHUB API'
+  default_params :login => 'YOUR GITHUB USERNAME',
+                 :token => 'YOUR GITHUB API TOKEN'
 
   def self.repo_search(name)
     get("/repos/search/#{name}")['repositories']
