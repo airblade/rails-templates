@@ -3,6 +3,8 @@
 # Rails Toolbox
 #
 # Finds the most popular Rails plugins and gems.
+# See here for more information:
+#   http://blog.airbladesoftware.com/2009/6/5/the-rails-toolbox
 
 require 'rubygems'
 require 'httparty'
